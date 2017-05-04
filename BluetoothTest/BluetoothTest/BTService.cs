@@ -15,6 +15,7 @@ namespace BluetoothTest
         private const bool Debug = true;
 
         private const string Name = "BluetoothTest";
+        // Mangler en UniqueID fra Android telefon
         private static UUID MY_UUID = UUID.FromString("");
 
         protected BluetoothAdapter _adapter;
